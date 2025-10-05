@@ -30,11 +30,17 @@ A production-ready multimodal machine learning system for predicting housing pri
 
 📁 Project Structure
 multimodal-housing-prediction/
+
 ├── 📓 multimodal_housing_prediction.ipynb
+
 ├── 🏠 multimodal_housing_model.h5
-├── 📊 tabular_model.h5
+
+├── 📊 tabular_model.
+
 ├── 🖼️ house_images/
+
 ├── 📋 requirements.txt
+
 └── 📖 README.md
 
 📈 Results
