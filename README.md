@@ -1,5 +1,10 @@
 # Multimodal-Housing-Price-Prediction
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0%2B-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+![ML](https://img.shields.io/badge/ML-Multimodal-red)
+
 End-to-End Multimodal Machine Learning for Housing Price Prediction using Images + Tabular Data with TensorFlow, Keras, and production-ready deployment.
 
 ## Multimodal Housing Price Prediction - CNN + Tabular Data Fusion
@@ -26,6 +31,7 @@ A production-ready multimodal machine learning system for predicting housing pri
 - **Production Ready**: Exportable models using TensorFlow SavedModel format
 - **Performance Optimization**: 82%+ improvement over tabular-only approaches
 - **Comprehensive Evaluation**: MAE, RMSE metrics with detailed visualizations
+
 
 
 📁 Project Structure
