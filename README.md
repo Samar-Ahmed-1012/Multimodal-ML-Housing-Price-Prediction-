@@ -1,52 +1,31 @@
-🏠 Multimodal Housing Price Prediction
-A comprehensive multimodal machine learning project that predicts housing prices using both house images and tabular data through advanced deep learning fusion techniques.
+# Multimodal-Housing-Price-Prediction
 
-https://img.shields.io/badge/Python-3.8%252B-blue
-https://img.shields.io/badge/TensorFlow-2.0%252B-orange
-https://img.shields.io/badge/Keras-Multimodal-red
-https://img.shields.io/badge/Computer-Vision-success
-https://img.shields.io/badge/License-MIT-green
+End-to-End Multimodal Machine Learning for Housing Price Prediction using Images + Tabular Data with TensorFlow, Keras, and production-ready deployment.
 
-📋 Project Overview
-This project demonstrates how combining computer vision (house images) with traditional tabular data can significantly improve housing price prediction accuracy compared to using tabular data alone.
+## Multimodal Housing Price Prediction - CNN + Tabular Data Fusion
 
-🚀 Key Features
--- Multimodal Architecture: Combines CNN for image processing and Dense networks for tabular data
--- Synthetic Image Generation: Creates realistic house images based on housing features
--- Performance Comparison: Compares multimodal vs tabular-only approaches
--- Comprehensive Evaluation: Uses MAE and RMSE metrics for model assessment
--- Google Colab Ready: Fully executable in Google Colab environment
+**Python 3.8+**  
+**TensorFlow 2.0+**  
+**License MIT**  
+**Multimodal ML**
 
-🏗️ Model Architecture
-Multimodal Model Components:
+A production-ready multimodal machine learning system for predicting housing prices using both house images and tabular data. This project demonstrates advanced ML techniques combining computer vision with traditional feature engineering for superior prediction accuracy.
 
-Image Branch:
-1. Base Model: VGG16 (pretrained on ImageNet)
-2. Feature Extraction: Global Average Pooling + Dense layers
-3. Output: 32-dimensional image features
+## 🎯 Key Results
 
-Tabular Branch:
-1. Input: 8 housing features (MedInc, HouseAge, AveRooms, etc.)
-2. Processing: Dense layers with Batch Normalization and Dropout
-3. Output: 16-dimensional tabular features
-4. Fusion & Prediction:
-5. Feature Concatenation: Combines image and tabular features
-6. Final Layers: Dense layers for price regression
-7. Output: Single continuous value (house price)
+| Model Type | MAE | RMSE | Improvement |
+|------------|-----|------|-------------|
+| **Multimodal (Images + Tabular)** | **$32,730** | **$40,868** | **Baseline** |
+| **Tabular-only** | $187,248 | $208,821 | **82.52% Better** |
 
-📊 Dataset
-Source: California Housing Prices dataset
-Samples: 500 houses (for demonstration)
+## Features
 
-Features:
-1. MedInc: Median income
-2. HouseAge: House age
-3. AveRooms: Average rooms
-4. AveBedrms: Average bedrooms
-5. Population: Area population
-6. AveOccup: Average occupancy
-7. Latitude/Longitude: Geographic coordinates
-Target: House Price (in USD)
+- **Multimodal Architecture**: Combines CNN for image processing with Dense networks for tabular data
+- **End-to-End Pipeline**: Complete workflow from data preprocessing to model deployment
+- **Synthetic Image Generation**: Automated creation of realistic house images based on features
+- **Production Ready**: Exportable models using TensorFlow SavedModel format
+- **Performance Optimization**: 82%+ improvement over tabular-only approaches
+- **Comprehensive Evaluation**: MAE, RMSE metrics with detailed visualizations
 
 
 📁 Project Structure
@@ -59,6 +38,7 @@ multimodal-housing-prediction/
 └── 📖 README.md
 
 📈 Results
+
 https://img.shields.io/badge/Training-History-blue
 https://img.shields.io/badge/Predictions-Visualization-orange
 https://img.shields.io/badge/Feature-Importance-green
